@@ -1508,4 +1508,32 @@ NoConn ~ 5750 6650
 NoConn ~ 1250 7000
 NoConn ~ 2150 6600
 NoConn ~ 2150 6700
+Wire Wire Line
+	2600 1250 2600 1150
+Wire Wire Line
+	2600 1150 2700 1150
+Connection ~ 2700 1150
+$Comp
+L Device:C C?
+U 1 1 601E8073
+P 2250 1000
+F 0 "C?" H 2135 954 50  0000 R CNN
+F 1 "100n" H 2135 1045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 850 50  0001 C CNN
+F 3 "~" H 2250 1000 50  0001 C CNN
+F 4 "C49678" H 2250 1000 50  0001 C CNN "LCSC"
+	1    2250 1000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1800 850  2250 850 
+Connection ~ 1800 850 
+Wire Wire Line
+	2250 1150 1800 1150
+Connection ~ 1800 1150
+Wire Wire Line
+	2900 1150 3000 1150
+Wire Wire Line
+	3000 1150 3000 1250
+Connection ~ 2900 1150
 $EndSCHEMATC
