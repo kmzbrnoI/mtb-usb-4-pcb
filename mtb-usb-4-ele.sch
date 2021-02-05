@@ -423,11 +423,11 @@ Wire Wire Line
 	6800 2550 6600 2550
 Connection ~ 6800 2550
 Text GLabel 6700 2250 0    50   Input ~ 0
-USART-MTB-TX
+USART_MTB_TX
 Text GLabel 6700 2450 0    50   Input ~ 0
-USART-MTB-RX
+USART_MTB_RX
 Text GLabel 6700 2550 0    50   Input ~ 0
-USART-MTB-DIR
+USART_MTB_DIR
 $Comp
 L power:+3V3 #PWR030
 U 1 1 602B76EC
@@ -954,9 +954,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 3650 1850 3650
 Text GLabel 1850 3550 0    50   Input ~ 0
-USART-MTB-TX
+USART_MTB_TX
 Text GLabel 1850 3650 0    50   Input ~ 0
-USART-MTB-RX
+USART_MTB_RX
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 602077A7
@@ -993,7 +993,7 @@ $EndComp
 Wire Wire Line
 	2100 2750 1850 2750
 Text GLabel 1850 2750 0    50   Input ~ 0
-USART-MTB-DIR
+USART_MTB_DIR
 Text GLabel 800  1450 0    50   Input ~ 0
 RST
 Wire Wire Line
