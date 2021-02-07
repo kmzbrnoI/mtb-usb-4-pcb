@@ -4,19 +4,15 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "MTB-USB v4"
+Date "2021-02-07"
+Rev "4.0"
+Comp "Model Railroader Club Brno – KMŽ Brno I"
+Comment1 "Jan Horáček"
+Comment2 "https://github.com/kmzbrnoI/mtb-usb-4-ele https://mtb.kmz-brno.cz/"
+Comment3 "https://creativecommons.org/licenses/by-sa/4.0/"
+Comment4 "Released under the Creative Commons Attribution-ShareAlike 4.0 License"
 $EndDescr
-Text Notes 7400 7500 0    50   ~ 0
-MTB-USB v4.0
-Text Notes 7000 6800 0    157  ~ 0
-MTB-USB v4.0
 $Comp
 L Connector:RJ12 J6
 U 1 1 601B6984
@@ -1443,7 +1439,7 @@ $Comp
 L Jumper:SolderJumper_2_Open JP6
 U 1 1 6023725F
 P 8250 4400
-F 0 "JP6" H 8450 4350 50  0000 C CNN
+F 0 "JP6" H 8250 4300 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 8500 4500 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8250 4400 50  0001 C CNN
 F 3 "~" H 8250 4400 50  0001 C CNN
@@ -1454,7 +1450,7 @@ $Comp
 L Jumper:SolderJumper_2_Open JP5
 U 1 1 60243F4E
 P 8250 4000
-F 0 "JP5" H 8450 3950 50  0000 C CNN
+F 0 "JP5" H 8250 4100 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 8500 3900 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8250 4000 50  0001 C CNN
 F 3 "~" H 8250 4000 50  0001 C CNN
@@ -1523,7 +1519,7 @@ U 1 1 60210B8B
 P 5050 3100
 F 0 "JP3" H 5050 3364 50  0000 C CNN
 F 1 "Jumper" H 5050 3273 50  0000 C CNN
-F 2 "" H 5050 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 3100 50  0001 C CNN
 F 3 "~" H 5050 3100 50  0001 C CNN
 	1    5050 3100
 	1    0    0    -1  
