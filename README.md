@@ -30,7 +30,8 @@ attribute set.
    - GND must be connected with MTBbus' GND always!
  * MTBbus terminator on-board.
  * Two RJ12 connectors as well as screw terminals for MTBbus connection.
- * Max power consumption: 150 mA.
+ * Max power consumption: 300 mA.
+   - Max current through RS485 driver: 250 mA.
 
 ## Authors
 
