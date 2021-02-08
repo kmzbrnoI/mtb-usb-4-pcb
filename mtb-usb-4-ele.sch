@@ -7,7 +7,7 @@ Sheet 1 1
 Title "MTB-USB v4"
 Date "2021-02-07"
 Rev "4.0"
-Comp "Model Railroader Club Brno – KMŽ Brno I"
+Comp "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/"
 Comment1 "Jan Horáček"
 Comment2 "https://github.com/kmzbrnoI/mtb-usb-4-ele https://mtb.kmz-brno.cz/"
 Comment3 "https://creativecommons.org/licenses/by-sa/4.0/"
@@ -412,12 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 2550 6800 2050
 Wire Wire Line
-	7000 2450 6600 2450
-Wire Wire Line
 	7000 2250 6600 2250
-Wire Wire Line
-	6800 2550 6600 2550
-Connection ~ 6800 2550
 Text GLabel 6700 2250 0    50   Input ~ 0
 USART_MTB_TX
 Text GLabel 6700 2450 0    50   Input ~ 0
@@ -474,51 +469,6 @@ F 3 "" H 6900 1750 50  0001 C CNN
 	1    6900 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Supervisor:MCP130-xxxxTT U3
-U 1 1 602C6988
-P 6500 3150
-F 0 "U3" V 6225 3150 50  0000 C CNN
-F 1 "MCP130-270TT" V 6134 3150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 2800 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf" H 6500 3150 50  0001 C CNN
-	1    6500 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6500 2850 6500 2750
-Wire Wire Line
-	6500 2750 7000 2750
-$Comp
-L power:+3V3 #PWR026
-U 1 1 602C94EA
-P 6050 3100
-F 0 "#PWR026" H 6050 2950 50  0001 C CNN
-F 1 "+3V3" H 6065 3273 50  0000 C CNN
-F 2 "" H 6050 3100 50  0001 C CNN
-F 3 "" H 6050 3100 50  0001 C CNN
-	1    6050 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3150 6050 3150
-Wire Wire Line
-	6050 3150 6050 3100
-$Comp
-L power:GND #PWR031
-U 1 1 602CAB96
-P 6950 3200
-F 0 "#PWR031" H 6950 2950 50  0001 C CNN
-F 1 "GND" H 6955 3027 50  0000 C CNN
-F 2 "" H 6950 3200 50  0001 C CNN
-F 3 "" H 6950 3200 50  0001 C CNN
-	1    6950 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 3150 6950 3150
-Wire Wire Line
-	6950 3150 6950 3200
 $Comp
 L power:+5VA #PWR039
 U 1 1 602CE695
@@ -1668,4 +1618,22 @@ Wire Wire Line
 Connection ~ 8750 5700
 Wire Wire Line
 	8750 5700 9200 5700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 602AEEF4
+P 6900 2750
+F 0 "#PWR?" H 6900 2600 50  0001 C CNN
+F 1 "+3V3" H 6915 2923 50  0000 C CNN
+F 2 "" H 6900 2750 50  0001 C CNN
+F 3 "" H 6900 2750 50  0001 C CNN
+	1    6900 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 2750 7000 2750
+Wire Wire Line
+	6700 2550 6800 2550
+Connection ~ 6800 2550
+Wire Wire Line
+	6700 2450 7000 2450
 $EndSCHEMATC
