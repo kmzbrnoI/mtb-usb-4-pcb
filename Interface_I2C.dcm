@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADUM1250
+D Hot Swappable Dual I2C Isolator, SO-8
+K i2c
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf
+$ENDCMP
+#
+#End Doc Library
