@@ -603,13 +603,13 @@ USART_MTB_RX
 $Comp
 L Connector:Screw_Terminal_01x02 J7
 U 1 1 60213B55
-P 10750 2050
-F 0 "J7" H 10830 2042 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 10450 2150 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10750 2050 50  0001 C CNN
-F 3 "~" H 10750 2050 50  0001 C CNN
-	1    10750 2050
-	0    1    1    0   
+P 10650 2050
+F 0 "J7" H 10730 2042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10350 2150 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10650 2050 50  0001 C CNN
+F 3 "~" H 10650 2050 50  0001 C CNN
+	1    10650 2050
+	0    -1   1    0   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J6
@@ -917,21 +917,13 @@ Text GLabel 5100 1450 1    50   Input ~ 0
 LED_RED
 Text GLabel 5450 1450 1    50   Input ~ 0
 LED_BLUE
-Wire Wire Line
-	2100 2950 1850 2950
-Wire Wire Line
-	2100 3050 1850 3050
-Text GLabel 1850 3050 0    50   Input ~ 0
+Text GLabel 1850 3950 0    50   Input ~ 0
 LED_YEL
-Text GLabel 1850 2950 0    50   Input ~ 0
+Text GLabel 1850 4050 0    50   Input ~ 0
 LED_GR
-Wire Wire Line
-	2100 3150 1850 3150
-Text GLabel 1850 3150 0    50   Input ~ 0
+Text GLabel 1850 3850 0    50   Input ~ 0
 LED_RED
-Wire Wire Line
-	2100 3250 1850 3250
-Text GLabel 1850 3250 0    50   Input ~ 0
+Text GLabel 1850 3750 0    50   Input ~ 0
 LED_BLUE
 Text Notes 8850 6150 0    79   ~ 0
 Either U5 is fitted or external power\nsupply on J5 should be provided.
@@ -971,10 +963,6 @@ NoConn ~ 3400 2650
 NoConn ~ 2100 2550
 NoConn ~ 2100 2650
 NoConn ~ 2100 2850
-NoConn ~ 2100 3750
-NoConn ~ 2100 3850
-NoConn ~ 2100 3950
-NoConn ~ 2100 4050
 NoConn ~ 2100 2150
 NoConn ~ 2100 2250
 NoConn ~ 2100 2350
@@ -2066,4 +2054,16 @@ Wire Wire Line
 	8900 5300 8900 5200
 Text GLabel 6500 1750 0    50   Input ~ 0
 USART_MTB_TX
+Wire Wire Line
+	1850 3750 2100 3750
+Wire Wire Line
+	2100 3850 1850 3850
+Wire Wire Line
+	1850 3950 2100 3950
+Wire Wire Line
+	2100 4050 1850 4050
+NoConn ~ 2100 2950
+NoConn ~ 2100 3050
+NoConn ~ 2100 3150
+NoConn ~ 2100 3250
 $EndSCHEMATC
