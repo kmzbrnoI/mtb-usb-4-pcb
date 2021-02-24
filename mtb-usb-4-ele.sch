@@ -19,7 +19,7 @@ U 1 1 601B6984
 P 10650 1000
 F 0 "J5" V 10300 850 50  0000 R CNN
 F 1 "RJ12" V 10300 1350 50  0000 R CNN
-F 2 "Connector_RJ:RJ12_Amphenol_54601" V 10650 1025 50  0001 C CNN
+F 2 "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal" V 10650 1025 50  0001 C CNN
 F 3 "~" V 10650 1025 50  0001 C CNN
 	1    10650 1000
 	0    1    1    0   
@@ -30,7 +30,7 @@ U 1 1 601B7BFF
 P 9750 1000
 F 0 "J4" V 9400 850 50  0000 R CNN
 F 1 "RJ12" V 9400 1350 50  0000 R CNN
-F 2 "Connector_RJ:RJ12_Amphenol_54601" V 9750 1025 50  0001 C CNN
+F 2 "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal" V 9750 1025 50  0001 C CNN
 F 3 "~" V 9750 1025 50  0001 C CNN
 	1    9750 1000
 	0    1    1    0   
@@ -606,7 +606,7 @@ U 1 1 60213B55
 P 10750 2050
 F 0 "J7" H 10830 2042 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 10450 2150 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 10750 2050 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10750 2050 50  0001 C CNN
 F 3 "~" H 10750 2050 50  0001 C CNN
 	1    10750 2050
 	0    1    1    0   
@@ -617,7 +617,7 @@ U 1 1 6021CC38
 P 10650 5000
 F 0 "J6" H 10730 4992 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 10250 4750 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 10650 5000 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10650 5000 50  0001 C CNN
 F 3 "~" H 10650 5000 50  0001 C CNN
 	1    10650 5000
 	1    0    0    -1  
