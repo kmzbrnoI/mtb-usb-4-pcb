@@ -1385,10 +1385,8 @@ Text GLabel 6500 2050 0    50   Input ~ 0
 USART_MTB_DIR
 Text GLabel 6500 1950 0    50   Input ~ 0
 USART_MTB_RX
-Text GLabel 6500 1750 0    50   Input ~ 0
-USART_MTB_TX
 Wire Wire Line
-	6800 1750 6400 1750
+	6800 1750 6500 1750
 Wire Wire Line
 	6600 2050 6600 1550
 Wire Wire Line
@@ -2066,4 +2064,6 @@ Wire Wire Line
 	8200 700  8250 700 
 Wire Wire Line
 	8900 5300 8900 5200
+Text GLabel 6500 1750 0    50   Input ~ 0
+USART_MTB_TX
 $EndSCHEMATC
