@@ -603,24 +603,13 @@ USART_MTB_RX
 $Comp
 L Connector:Screw_Terminal_01x02 J7
 U 1 1 60213B55
-P 10650 2050
-F 0 "J7" H 10730 2042 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 10350 2150 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10650 2050 50  0001 C CNN
-F 3 "~" H 10650 2050 50  0001 C CNN
-	1    10650 2050
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 6021CC38
-P 10650 5000
-F 0 "J6" H 10730 4992 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 10250 4750 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10650 5000 50  0001 C CNN
-F 3 "~" H 10650 5000 50  0001 C CNN
-	1    10650 5000
-	1    0    0    -1  
+P 10750 2050
+F 0 "J7" H 10830 2042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10450 2150 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10750 2050 50  0001 C CNN
+F 3 "~" H 10750 2050 50  0001 C CNN
+	1    10750 2050
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2100 2750 1850 2750
@@ -1632,8 +1621,6 @@ F 3 "" H 9500 3100 50  0001 C CNN
 	1    9500 3100
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 3100 9500 3150
 $Comp
 L Device:C C16
 U 1 1 60816FD9
@@ -1646,11 +1633,6 @@ F 4 "C49678" H 9800 3150 50  0001 C CNN "LCSC"
 	1    9800 3150
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	9500 3150 9650 3150
-Connection ~ 9500 3150
-Wire Wire Line
-	9500 3150 9500 3250
 Wire Wire Line
 	9950 3150 10200 3150
 Wire Wire Line
@@ -1946,11 +1928,6 @@ Wire Wire Line
 	8750 800  8750 750 
 Text GLabel 8200 700  0    50   Input ~ 0
 ADM_IN-
-Text GLabel 8900 800  2    50   Input ~ 0
-ADM_IN+
-Wire Wire Line
-	8750 800  8900 800 
-Connection ~ 8750 800 
 Wire Wire Line
 	8650 800  8750 800 
 Wire Wire Line
@@ -1962,8 +1939,6 @@ Wire Wire Line
 Connection ~ 8250 800 
 Wire Wire Line
 	8250 800  8350 800 
-Text GLabel 10000 3550 2    50   Input ~ 0
-ADM_IN+
 Wire Wire Line
 	9900 3750 10000 3750
 Text GLabel 10000 3750 2    50   Input ~ 0
@@ -2066,4 +2041,33 @@ NoConn ~ 2100 2950
 NoConn ~ 2100 3050
 NoConn ~ 2100 3150
 NoConn ~ 2100 3250
+$Comp
+L Connector:Screw_Terminal_01x02 J6
+U 1 1 6021CC38
+P 10650 5100
+F 0 "J6" H 10730 5092 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10250 4850 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10650 5100 50  0001 C CNN
+F 3 "~" H 10650 5100 50  0001 C CNN
+	1    10650 5100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9500 3100 9500 3150
+$Comp
+L power:+5VA #PWR0102
+U 1 1 607AD8A6
+P 10000 3550
+F 0 "#PWR0102" H 10000 3400 50  0001 C CNN
+F 1 "+5VA" H 10015 3723 50  0000 C CNN
+F 2 "" H 10000 3550 50  0001 C CNN
+F 3 "" H 10000 3550 50  0001 C CNN
+	1    10000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3150 9500 3150
+Connection ~ 9500 3150
+Wire Wire Line
+	9500 3150 9500 3250
 $EndSCHEMATC
