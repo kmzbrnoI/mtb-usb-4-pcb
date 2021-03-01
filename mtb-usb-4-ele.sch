@@ -925,8 +925,6 @@ NoConn ~ 3400 2950
 NoConn ~ 3400 3050
 NoConn ~ 3400 3150
 NoConn ~ 3400 3250
-NoConn ~ 3400 3350
-NoConn ~ 3400 3450
 NoConn ~ 3400 3550
 NoConn ~ 3400 4050
 NoConn ~ 3400 2650
@@ -2132,4 +2130,19 @@ F 3 "~" H 6700 3550 50  0001 C CNN
 $EndComp
 Text Notes 7650 900  0    50   ~ 0
 250 mA max (bus shorted)
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 605D9623
+P 3800 3350
+F 0 "J8" H 3880 3342 50  0000 L CNN
+F 1 "Conn_01x02" H 3880 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3800 3350 50  0001 C CNN
+F 3 "~" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3350 3600 3350
+Wire Wire Line
+	3600 3450 3400 3450
 $EndSCHEMATC
