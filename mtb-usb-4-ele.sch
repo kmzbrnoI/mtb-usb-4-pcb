@@ -32,6 +32,7 @@ F 0 "J4" V 9400 850 50  0000 R CNN
 F 1 "RJ12" V 9400 1350 50  0000 R CNN
 F 2 "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal" V 9750 1025 50  0001 C CNN
 F 3 "~" V 9750 1025 50  0001 C CNN
+F 4 "yes" V 9750 1000 50  0001 C CNN "JLCPCB_IGNORE"
 	1    9750 1000
 	0    1    1    0   
 $EndComp
@@ -88,6 +89,7 @@ F 1 "AMS1117-3.3" H 3600 6951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3600 7000 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3700 6550 50  0001 C CNN
 F 4 "C6186" H 3600 6800 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 3600 6800 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    3600 6800
 	1    0    0    -1  
 $EndComp
@@ -677,6 +679,7 @@ F 1 "STM32F103C8Tx" H 3300 1150 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2200 1350 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 2800 2750 50  0001 C CNN
 F 4 "C8734" H 2800 2750 50  0001 C CNN "LCSC"
+F 5 "0;0;-90" H 2800 2750 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    2800 2750
 	1    0    0    -1  
 $EndComp
@@ -1144,6 +1147,7 @@ F 1 "INA219AxDCN" H 9200 4000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-8" H 10150 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 9850 3550 50  0001 C CNN
 F 4 "C87469" H 9500 3650 50  0001 C CNN "LCSC"
+F 5 "0;0;-90" H 9500 3650 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    9500 3650
 	-1   0    0    -1  
 $EndComp
@@ -1156,6 +1160,7 @@ F 1 "ADUM1250" H 7600 3300 50  0000 L CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 7400 3250 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf" H 6650 3700 50  0001 C CNN
 F 4 "C13839" H 7400 3650 50  0001 C CNN "LCSC"
+F 5 "0;0;-90" H 7400 3650 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    7400 3650
 	1    0    0    -1  
 $EndComp
@@ -1350,6 +1355,7 @@ F 1 "ADM2483xRW" H 7850 950 50  0000 L CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 7400 1050 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf" H 6650 1800 50  0001 C CNN
 F 4 "C9637" H 7400 1750 50  0001 C CNN "LCSC"
+F 5 "0;0;-90" H 7400 1750 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    7400 1750
 	1    0    0    -1  
 $EndComp
