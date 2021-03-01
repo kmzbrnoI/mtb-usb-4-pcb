@@ -2124,4 +2124,6 @@ F 3 "~" H 6700 3550 50  0001 C CNN
 	1    6500 3550
 	-1   0    0    1   
 $EndComp
+Text Notes 7650 900  0    50   ~ 0
+250 mA max (bus shorted)
 $EndSCHEMATC
