@@ -603,13 +603,13 @@ USART_MTB_RX
 $Comp
 L Connector:Screw_Terminal_01x02 J7
 U 1 1 60213B55
-P 10750 2050
-F 0 "J7" H 10830 2042 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 10450 2150 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10750 2050 50  0001 C CNN
-F 3 "~" H 10750 2050 50  0001 C CNN
-	1    10750 2050
-	0    1    1    0   
+P 10650 2050
+F 0 "J7" H 10730 2042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10350 2150 50  0000 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 10650 2050 50  0001 C CNN
+F 3 "~" H 10650 2050 50  0001 C CNN
+	1    10650 2050
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2100 2750 1850 2750
@@ -1382,26 +1382,6 @@ F 4 "C9637" H 7400 1750 50  0001 C CNN "LCSC"
 	1    7400 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 1750 9850 1750
-Wire Wire Line
-	9550 1650 9750 1650
-Wire Wire Line
-	9850 1400 9850 1750
-Connection ~ 9850 1750
-Wire Wire Line
-	9850 1750 10750 1750
-Wire Wire Line
-	9750 1400 9750 1650
-Connection ~ 9750 1650
-Wire Wire Line
-	9750 1650 10650 1650
-Wire Wire Line
-	10650 1400 10650 1650
-Connection ~ 10650 1650
-Wire Wire Line
-	10750 1400 10750 1750
-Connection ~ 10750 1750
 $Comp
 L power:GNDA #PWR055
 U 1 1 6055FA39
@@ -1468,10 +1448,6 @@ F 3 "" H 10450 1400 50  0001 C CNN
 	1    10450 1400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10650 1850 10650 1650
-Wire Wire Line
-	10750 1850 10750 1750
 $Comp
 L power:+3V3 #PWR036
 U 1 1 605E1959
@@ -2070,4 +2046,28 @@ Wire Wire Line
 Connection ~ 9500 3150
 Wire Wire Line
 	9500 3150 9500 3250
+Wire Wire Line
+	9550 1650 9850 1650
+Wire Wire Line
+	9100 1750 9750 1750
+Wire Wire Line
+	9850 1400 9850 1650
+Connection ~ 9850 1650
+Wire Wire Line
+	9750 1400 9750 1750
+Wire Wire Line
+	10750 1650 10750 1400
+Wire Wire Line
+	9850 1650 10750 1650
+Wire Wire Line
+	9750 1750 10650 1750
+Wire Wire Line
+	10650 1750 10650 1400
+Connection ~ 9750 1750
+Wire Wire Line
+	10650 1750 10650 1850
+Connection ~ 10650 1750
+Wire Wire Line
+	10750 1650 10750 1850
+Connection ~ 10750 1650
 $EndSCHEMATC
