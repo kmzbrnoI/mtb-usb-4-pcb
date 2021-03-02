@@ -73,6 +73,7 @@ F 0 "J1" H 1657 6967 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1657 6876 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1700 6100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1700 6100 50  0001 C CNN
+F 4 "C165948" H 1550 6100 50  0001 C CNN "LCSC"
 	1    1550 6100
 	1    0    0    -1  
 $EndComp
@@ -2162,7 +2163,8 @@ F 0 "D7" H 2880 6546 50  0000 L CNN
 F 1 "ESDA6V1-5SC6" H 2880 6455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3250 6250 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf" V 2550 6500 50  0001 C CNN
-F 4 "C6650" H 2550 6500 50  0001 C CNN "LCSC_PART"
+F 4 "C6650" H 2550 6500 50  0001 C CNN "LCSC"
+F 5 "0;0;180" H 2550 6500 50  0001 C CNN "JLCPCB_CORRECTION"
 	1    2550 6500
 	1    0    0    -1  
 $EndComp
