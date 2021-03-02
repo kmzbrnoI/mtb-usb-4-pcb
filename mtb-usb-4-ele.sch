@@ -2150,11 +2150,9 @@ F 3 "" H 2550 6700 50  0001 C CNN
 	1    2550 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 6100 2550 6100
 Connection ~ 2150 6100
 Wire Wire Line
-	2150 6200 3000 6200
+	2150 6200 2550 6200
 Connection ~ 2150 6200
 $Comp
 L Power_Protection:ESDA6V1-5SC6 D7
@@ -2169,13 +2167,59 @@ F 4 "C6650" H 2550 6500 50  0001 C CNN "LCSC_PART"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 6300 2550 6100
-Connection ~ 2550 6100
-Wire Wire Line
-	2550 6100 2750 6100
-Wire Wire Line
 	2750 6300 2750 6100
 Connection ~ 2750 6100
 Wire Wire Line
 	2750 6100 3000 6100
+Wire Wire Line
+	2150 6100 2750 6100
+Wire Wire Line
+	2550 6300 2550 6200
+Connection ~ 2550 6200
+Wire Wire Line
+	2550 6200 3000 6200
+$Comp
+L Connector:TestPoint TP7
+U 1 1 604F61F3
+P 10450 5500
+F 0 "TP7" H 10508 5618 50  0000 L CNN
+F 1 "TestPoint" H 10508 5527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm" H 10650 5500 50  0001 C CNN
+F 3 "~" H 10650 5500 50  0001 C CNN
+	1    10450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 604F6742
+P 1100 4600
+F 0 "TP6" H 1158 4718 50  0000 L CNN
+F 1 "TestPoint" H 1158 4627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm" H 1300 4600 50  0001 C CNN
+F 3 "~" H 1300 4600 50  0001 C CNN
+	1    1100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 604F6B7A
+P 1100 4600
+F 0 "#PWR0104" H 1100 4350 50  0001 C CNN
+F 1 "GND" H 1105 4427 50  0000 C CNN
+F 2 "" H 1100 4600 50  0001 C CNN
+F 3 "" H 1100 4600 50  0001 C CNN
+	1    1100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0105
+U 1 1 60503B4B
+P 10450 5500
+F 0 "#PWR0105" H 10450 5250 50  0001 C CNN
+F 1 "GNDA" H 10455 5327 50  0000 C CNN
+F 2 "" H 10450 5500 50  0001 C CNN
+F 3 "" H 10450 5500 50  0001 C CNN
+	1    10450 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
