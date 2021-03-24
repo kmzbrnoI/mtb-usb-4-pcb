@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "MTB-USB v4"
 Date "2021-02-07"
-Rev "4.0"
+Rev "4.1"
 Comp "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/"
 Comment1 "Jan Horáček"
 Comment2 "https://github.com/kmzbrnoI/mtb-usb-4-ele https://mtb.kmz-brno.cz/"

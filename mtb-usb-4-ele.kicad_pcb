@@ -10,6 +10,17 @@
   )
 
   (page A4)
+  (title_block
+    (title "MTB-USB v4")
+    (date 2021-03-24)
+    (rev 4.1)
+    (company "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/")
+    (comment 1 "Jan Horáček")
+    (comment 2 "https://github.com/kmzbrnoI/mtb-usb-4-ele https://mtb.kmz-brno.cz/")
+    (comment 3 https://creativecommons.org/licenses/by-sa/4.0/)
+    (comment 4 "Released under the Creative Commons Attribution-ShareAlike 4.0 License")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -3038,7 +3049,7 @@
   (gr_text "KMŽ Brno I\nJan Horáček\n2021" (at 159 64) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (gr_text "MTB-USB\nv4.0" (at 134.112 63.246) (layer F.SilkS)
+  (gr_text "MTB-USB\nv4.1" (at 134.112 63.246) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))
   )
   (gr_circle (center 138 88) (end 142.2 88) (layer Edge.Cuts) (width 0.15) (tstamp 6038606E))
