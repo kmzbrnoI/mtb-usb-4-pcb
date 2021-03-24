@@ -2186,7 +2186,7 @@ U 1 1 604F61F3
 P 10450 5500
 F 0 "TP7" H 10508 5618 50  0000 L CNN
 F 1 "TestPoint" H 10508 5527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm" H 10650 5500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded" H 10650 5500 50  0000 C CNN
 F 3 "~" H 10650 5500 50  0001 C CNN
 	1    10450 5500
 	1    0    0    -1  
@@ -2197,7 +2197,7 @@ U 1 1 604F6742
 P 1100 4600
 F 0 "TP6" H 1158 4718 50  0000 L CNN
 F 1 "TestPoint" H 1158 4627 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm" H 1300 4600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded" H 1300 4600 50  0001 C CNN
 F 3 "~" H 1300 4600 50  0001 C CNN
 	1    1100 4600
 	1    0    0    -1  
