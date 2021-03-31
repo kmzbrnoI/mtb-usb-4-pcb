@@ -245,14 +245,10 @@ F 4 "C115962" H 1750 1900 50  0001 C CNN "LCSC"
 	1    1750 1900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3400 3650 3600 3650
-Text GLabel 3600 3650 2    50   Input ~ 0
+Text GLabel 4000 3650 2    50   Input ~ 0
 USBD-
-Text GLabel 3600 3750 2    50   Input ~ 0
+Text GLabel 4000 3750 2    50   Input ~ 0
 USBD+
-Wire Wire Line
-	3600 3750 3400 3750
 Wire Wire Line
 	2850 5700 2750 5700
 $Comp
@@ -920,7 +916,6 @@ NoConn ~ 3400 2950
 NoConn ~ 3400 3050
 NoConn ~ 3400 3150
 NoConn ~ 3400 3250
-NoConn ~ 3400 3550
 NoConn ~ 3400 4050
 NoConn ~ 3400 2650
 NoConn ~ 2100 2550
@@ -2128,18 +2123,14 @@ Text Notes 7650 900  0    50   ~ 0
 $Comp
 L Connector_Generic:Conn_01x02 J8
 U 1 1 605D9623
-P 3800 3350
-F 0 "J8" H 3880 3342 50  0000 L CNN
-F 1 "Conn_01x02" H 3880 3251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3800 3350 50  0001 C CNN
-F 3 "~" H 3800 3350 50  0001 C CNN
-	1    3800 3350
+P 3950 3350
+F 0 "J8" H 4030 3342 50  0000 L CNN
+F 1 "Conn_01x02" H 4030 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3950 3350 50  0001 C CNN
+F 3 "~" H 3950 3350 50  0001 C CNN
+	1    3950 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 3350 3600 3350
-Wire Wire Line
-	3600 3450 3400 3450
 $Comp
 L power:GND #PWR0103
 U 1 1 603F7266
@@ -2224,4 +2215,33 @@ F 3 "" H 10450 5500 50  0001 C CNN
 	1    10450 5500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R17
+U 1 1 6068F5FB
+P 3650 3550
+F 0 "R17" H 3580 3504 50  0000 R CNN
+F 1 "1k5" H 3580 3595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3580 3550 50  0001 C CNN
+F 3 "~" H 3650 3550 50  0001 C CNN
+F 4 "C4310" H 3650 3550 50  0001 C CNN "LCSC"
+	1    3650 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3400 3750 3900 3750
+Wire Wire Line
+	3400 3650 4000 3650
+Wire Wire Line
+	3400 3550 3500 3550
+Wire Wire Line
+	3800 3550 3900 3550
+Wire Wire Line
+	3900 3550 3900 3750
+Connection ~ 3900 3750
+Wire Wire Line
+	3900 3750 4000 3750
+Wire Wire Line
+	3400 3450 3750 3450
+Wire Wire Line
+	3400 3350 3750 3350
 $EndSCHEMATC
