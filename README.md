@@ -19,6 +19,10 @@ PCB is prepared to be automatically assembled in [JLCPCB](https://jlcpcb.com/).
 SMD parts on **top** side should be assembled. Each SMD part has its `LCSC_ITEM`
 attribute set.
 
+```bash
+$ kikit fab jlcpcb --assembly --schematic mtb-usb-4-ele.sch mtb-usb-4-ele.kicad_pcb fab
+```
+
 ## Parameters
 
  * Galvanically separated USB & MTBbus.
