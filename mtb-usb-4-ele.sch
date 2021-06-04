@@ -2255,4 +2255,37 @@ Wire Wire Line
 	9350 5200 10100 5200
 Wire Wire Line
 	8050 4900 8150 4900
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60BAD653
+P 6350 7100
+F 0 "H2" H 6450 7149 50  0000 L CNN
+F 1 "-" H 6450 7058 50  0000 L CNN
+F 2 "jlcpcb_tooling_holes:jlcpcb_tooling_holes" H 6350 7100 50  0001 C CNN
+F 3 "~" H 6350 7100 50  0001 C CNN
+	1    6350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60BAEF99
+P 6150 7100
+F 0 "H1" H 6350 7150 50  0000 R CNN
+F 1 "-" H 6350 7050 50  0000 R CNN
+F 2 "jlcpcb_tooling_holes:jlcpcb_tooling_holes" H 6150 7100 50  0001 C CNN
+F 3 "~" H 6150 7100 50  0001 C CNN
+	1    6150 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60C1EFFC
+P 6250 7350
+F 0 "H3" H 6350 7399 50  0000 L CNN
+F 1 "-" H 6350 7308 50  0000 L CNN
+F 2 "jlcpcb_tooling_holes:jlcpcb_tooling_holes" H 6250 7350 50  0001 C CNN
+F 3 "~" H 6250 7350 50  0001 C CNN
+	1    6250 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
