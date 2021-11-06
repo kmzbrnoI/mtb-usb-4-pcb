@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "MTB-USB v4"
 Date "2021-02-07"
-Rev "4.1"
+Rev "4.2"
 Comp "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/"
 Comment1 "Jan Horáček"
 Comment2 "https://github.com/kmzbrnoI/mtb-usb-4-ele https://mtb.kmz-brno.cz/"
@@ -2204,7 +2204,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 1750 10750 1400
 Wire Wire Line
-	9850 1750 10750 1750
+	9850 1750 10450 1750
 Wire Wire Line
 	10650 1650 10650 1850
 Connection ~ 10650 1650
@@ -2288,4 +2288,36 @@ F 3 "~" H 6250 7350 50  0001 C CNN
 	1    6250 7350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Diode:SM712_SOT23 D8
+U 1 1 6187A447
+P 10100 2050
+F 0 "D8" H 10100 2266 50  0000 C CNN
+F 1 "SM712_SOT23" H 10100 2175 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10100 1700 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf" H 9950 2050 50  0001 C CNN
+F 4 "C2827658" H 10100 2050 50  0001 C CNN "LCSC"
+	1    10100 2050
+	1    0    0    -1  
+$EndComp
+Text Notes 9150 2200 0    50   ~ 0
+optional
+$Comp
+L power:GNDA #PWR040
+U 1 1 618801F6
+P 10100 2200
+F 0 "#PWR040" H 10100 1950 50  0001 C CNN
+F 1 "GNDA" H 10105 2027 50  0000 C CNN
+F 2 "" H 10100 2200 50  0001 C CNN
+F 3 "" H 10100 2200 50  0001 C CNN
+	1    10100 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2050 9750 1650
+Wire Wire Line
+	10450 2050 10450 1750
+Connection ~ 10450 1750
+Wire Wire Line
+	10450 1750 10750 1750
 $EndSCHEMATC
