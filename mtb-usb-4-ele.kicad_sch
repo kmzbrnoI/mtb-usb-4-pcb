@@ -10631,17 +10631,6 @@
 		)
 		(uuid "4ef07d45-f940-4cb6-bb96-2ddec13fd099")
 	)
-	(text "VR37000001005JA100"
-		(exclude_from_sim no)
-		(at 180.34 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7374a753-8220-425a-811c-a19fd54aa648")
-	)
 	(text "optional"
 		(exclude_from_sim no)
 		(at 232.41 55.88 0)
@@ -10652,17 +10641,6 @@
 			(justify left bottom)
 		)
 		(uuid "9404ce4c-2ce6-4f88-8062-13577800d257")
-	)
-	(text "CC10K-470"
-		(exclude_from_sim no)
-		(at 180.34 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4a27b41-a05b-40f7-9527-49965299f686")
 	)
 	(label "MTB-BUS+"
 		(at 229.87 41.91 0)
@@ -22742,7 +22720,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6b14aa14-3ccc-4dbd-a079-b566687b5290")
 		(property "Reference" "C17"
 			(at 187.96 112.8862 90)
@@ -22785,6 +22762,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "TME" "CC10K-470"
+			(at 180.975 118.745 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -22876,7 +22862,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d274505a-abe4-475e-854c-2fd24cbbcf18")
 		(property "Reference" "R18"
 			(at 187.96 124.1892 90)
@@ -22919,6 +22904,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "TME" "VR37000001005JA100"
+			(at 180.975 128.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
