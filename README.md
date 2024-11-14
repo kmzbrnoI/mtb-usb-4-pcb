@@ -11,7 +11,7 @@ MTB in available [here](https://mtb.kmz-brno.cz/).
 
 ## Design
 
-Schematics & PCB are designed in KiCad 5.
+Schematics & PCB are designed in KiCad 8.
 
 ## Production
 
