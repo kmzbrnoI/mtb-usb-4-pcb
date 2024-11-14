@@ -507,6 +507,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME",
+          "name": "TME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GME",
+          "name": "GME",
+          "show": false
         }
       ],
       "filter_string": "",

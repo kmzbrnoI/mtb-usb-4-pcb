@@ -11722,6 +11722,24 @@
 				(hide yes)
 			)
 		)
+		(property "TME" "MJ3235"
+			(at 271.78 13.97 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "GME" "DS1133-S60BP"
+			(at 248.92 13.97 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "befacab1-3ce9-4336-9354-65f45dcd62dd")
 		)
@@ -11804,6 +11822,24 @@
 			)
 		)
 		(property "JLCPCB_IGNORE" "true"
+			(at 247.65 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "MJ3235"
+			(at 247.65 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GME" "DS1133-S60BP"
 			(at 247.65 25.4 90)
 			(effects
 				(font

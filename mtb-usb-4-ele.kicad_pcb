@@ -1173,6 +1173,32 @@
 				)
 			)
 		)
+		(property "TME" "MJ3235"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e4c2b8e-a1ad-4793-9b57-b8d9ba172851")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "GME" "DS1133-S60BP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d68220b-599b-43f6-a84d-d181f2a324fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "6P6C* RJ12* RJ18* RJ25*")
 		(path "/00000000-0000-0000-0000-0000601b6984")
 		(sheetname "Root")
@@ -7494,6 +7520,32 @@
 				)
 			)
 		)
+		(property "TME" "MJ3235"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f385719-8110-43e5-a20b-6646c9d208f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "GME" "DS1133-S60BP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08aa8da2-9fca-4ab3-b12a-01256fa374fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "6P6C* RJ12* RJ18* RJ25*")
 		(path "/00000000-0000-0000-0000-0000601b7bff")
 		(sheetname "Root")
@@ -10254,7 +10306,7 @@
 			(uuid "4f8a1244-db00-490f-9584-dcd6c91df9fb")
 		)
 		(fp_text user "3"
-			(at 2.6 0 270)
+			(at 2.6 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1b3a2181-e181-4f05-8f4f-247eebe0a768")
@@ -10266,7 +10318,7 @@
 			)
 		)
 		(fp_text user "1"
-			(at -2.6 0 270)
+			(at -2.6 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4b3730fd-c4d7-4573-a449-0f27eceed6f8")
