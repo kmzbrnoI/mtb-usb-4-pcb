@@ -20418,7 +20418,7 @@
 			)
 		)
 	)
-	(gr_text "KMŽ Brno I\nJan Horáček\n2022"
+	(gr_text "KMŽ Brno I\nJan Horáček\n2024"
 		(at 160.782 64 0)
 		(layer "F.SilkS")
 		(uuid "50a799a7-f8f3-4f13-9288-b10696e9a7da")
@@ -20473,7 +20473,7 @@
 			)
 		)
 	)
-	(gr_text "MTB-USB\nv4.3"
+	(gr_text "MTB-USB\nv4.4"
 		(at 133.096 62.484 0)
 		(layer "F.SilkS")
 		(uuid "78a228c9-bbf0-49cf-b917-2dec23b390df")
