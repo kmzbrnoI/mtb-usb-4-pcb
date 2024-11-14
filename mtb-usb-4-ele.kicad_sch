@@ -10761,17 +10761,6 @@
 		)
 		(uuid "4ef07d45-f940-4cb6-bb96-2ddec13fd099")
 	)
-	(text "optional"
-		(exclude_from_sim no)
-		(at 232.41 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9404ce4c-2ce6-4f88-8062-13577800d257")
-	)
 	(label "MTB-BUS+"
 		(at 229.87 41.91 0)
 		(fields_autoplaced yes)
@@ -17608,7 +17597,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060458884")
 		(property "Reference" "R15"
 			(at 236.22 53.34 90)
@@ -17645,15 +17634,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17557"
 			(at 236.22 48.26 0)
 			(effects
 				(font
