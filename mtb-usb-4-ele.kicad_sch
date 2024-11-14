@@ -21016,7 +21016,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 98.552 36.703 0)
 			(effects
 				(font
@@ -21052,7 +21052,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17414"
 			(at 100.33 35.56 0)
 			(effects
 				(font
@@ -21253,7 +21253,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 125.222 36.703 0)
 			(effects
 				(font
@@ -21289,7 +21289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17520"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -22078,7 +22078,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4k7"
 			(at 276.352 87.503 0)
 			(effects
 				(font
@@ -22114,7 +22114,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17513"
+		(property "LCSC" "C17673"
 			(at 278.13 86.36 0)
 			(effects
 				(font
