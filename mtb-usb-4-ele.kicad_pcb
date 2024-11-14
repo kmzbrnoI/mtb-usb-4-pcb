@@ -14643,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MV133-3,5-V-L"
 			(at 1.75 4.66 0)
 			(layer "F.Fab")
 			(uuid "7c5bb819-e280-4499-986e-55338ead2746")
@@ -16976,7 +16976,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "MV133-3,5-V-L"
 			(at 1.75 4.66 0)
 			(layer "F.Fab")
 			(uuid "485ed1c8-fd25-43b0-8cd7-d8b03f93e552")
@@ -18841,7 +18841,7 @@
 		(path "/00000000-0000-0000-0000-000060458884")
 		(sheetname "Root")
 		(sheetfile "mtb-usb-4-ele.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)

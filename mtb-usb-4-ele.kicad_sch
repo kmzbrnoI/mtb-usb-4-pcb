@@ -8286,7 +8286,7 @@
 		(uuid "e04b8c10-725b-4bde-8cbf-66bfea5053e6")
 	)
 	(junction
-		(at 68.58 107.95)
+		(at 68.58 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e300709f-6c72-488d-a598-efcbd6d3af54")
@@ -9069,7 +9069,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 107.95) (xy 71.12 107.95)
+			(xy 68.58 110.49) (xy 71.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9086,6 +9086,16 @@
 			(type default)
 		)
 		(uuid "5641be26-f5e9-482f-8616-297f17f4eae2")
+	)
+	(wire
+		(pts
+			(xy 66.04 110.49) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5647fc2e-04fa-435b-bea0-a562dc55b8db")
 	)
 	(wire
 		(pts
@@ -9359,6 +9369,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 110.49) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749d12ca-9bee-4a84-afae-2037d274c41c")
+	)
+	(wire
+		(pts
 			(xy 49.53 49.53) (xy 53.34 49.53)
 		)
 		(stroke
@@ -9469,7 +9489,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 110.49) (xy 68.58 107.95)
+			(xy 68.58 113.03) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10399,7 +10419,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 107.95) (xy 68.58 107.95)
+			(xy 66.04 110.49) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10516,6 +10536,16 @@
 			(type default)
 		)
 		(uuid "ed952427-2217-4500-9bbc-0c2746b198ad")
+	)
+	(wire
+		(pts
+			(xy 71.12 110.49) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef42cb44-0ae7-4997-b845-26939ebdb386")
 	)
 	(wire
 		(pts
@@ -13397,8 +13427,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 275.59 44.45 0)
+		(property "Value" "MV133-3,5-V-L"
+			(at 265.43 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,8 +13571,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 276.86 115.57 90)
+		(property "Value" "MV133-3,5-V-L"
+			(at 265.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,7 +13737,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 110.49 0)
+		(at 68.58 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13715,7 +13745,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060225c1c")
 		(property "Reference" "#PWR08"
-			(at 68.58 116.84 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +13754,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.707 114.8842 0)
+			(at 68.707 117.4242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +13762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 110.49 0)
+			(at 68.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13741,7 +13771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 110.49 0)
+			(at 68.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13750,7 +13780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 110.49 0)
+			(at 68.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
